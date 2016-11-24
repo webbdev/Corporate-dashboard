@@ -1,0 +1,44 @@
+<!-- Page Content -->
+<div class="map">
+  <!-- Content Header -->
+  <section class="content-header">
+    <h1>Employee Map<small>Geospatial view</small></h1>
+  </section>
+
+  <div class="box">
+  	<!-- Employee Map -->
+    <div id="container">
+      <hc-chart-map options="$ctrl.chartOptions">Placeholder for generic chart-map</hc-chart-map>
+    </div>
+
+  	<div class="row" style="margin-top: 30px;">
+  	  <div class="col-sm-5">
+  	  	<table class="table table-bordered">
+		    <thead>
+		      <tr>
+		        <th>No.</th>
+		        <th>Country</th>
+		        <th>Employee count</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr ng-repeat="z in $ctrl.mapsData">
+		        <td>{{$index + 1}}</td>
+		        <td>{{z.name}}</td>
+		        <td>{{z.value}}</td>
+		      </tr>
+		    </tbody>
+		    <tfoot>
+        	  <tr>
+        	  	<th colspan="2" style="text-align:right;">Total Employees:</th>
+        	  	<th>{{$ctrl.mapsData | sumByKey: 'value'}}</th>
+        	  </tr>
+        	</tfoot>
+	    </table>
+  	  </div>
+  	  <div class="col-sm-7"></div>
+  	</div>
+    
+  </div><!-- /.box -->
+
+</div>

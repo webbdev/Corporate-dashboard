@@ -1,0 +1,93 @@
+[
+	{
+		"id": 1,
+		"code": "AU",
+		"value": 30,
+		"y": 30,
+		"name": "Australia"
+	},
+	{
+		"id": 2,
+		"code": "BR",
+		"value": 35,
+		"y": 35,
+		"name": "Brazil"
+	},
+	{
+		"id": 3,
+		"code": "CA",
+		"value": 96,
+		"y": 96,
+		"name": "Canada"
+	},
+	{
+		"id": 4,
+		"code": "CN",
+		"value": 35,
+		"y": 35,
+		"name": "China"
+	},
+	{
+		"id": 5,
+		"code": "FR",
+		"value": 30,
+		"y": 30,
+		"name": "France"
+	},
+	{
+		"id": 6,
+		"code": "DE",
+		"value": 40,
+		"y": 40,
+		"name": "Germany"
+	},
+	{
+		"id": 7,
+		"code": "IE",
+		"value": 45,
+		"y": 45,
+		"name": "Ireland"
+	},
+	{
+		"id": 8,
+		"code": "NL",
+		"value": 25,
+		"y": 25,
+		"name": "Netherlands"
+	},
+	{
+		"id": 9,
+		"code": "RU",
+		"value": 37,
+		"y": 37,
+		"name": "Russian Federation"
+	},
+	{
+		"id": 10,
+		"code": "ZA",
+		"value": 22,
+		"y": 22,
+		"name": "South Africa"
+	},
+	{
+		"id": 11,
+		"code": "SE",
+		"value": 30,
+		"y": 30,
+		"name": "Sweden"
+	},
+	{
+		"id": 12,
+		"code": "GB",
+		"value": 150,
+		"y": 150,
+		"name": "United Kingdom"
+	},
+	{
+		"id": 13,
+		"code": "US",
+		"value": 50,
+		"y": 50,
+		"name": "United States"
+	}
+]

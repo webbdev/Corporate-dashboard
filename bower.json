@@ -1,0 +1,22 @@
+{
+  "name": "corporate-dashboard",
+  "description": "Corporate Dashboard App",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.*",
+    "angular-animate": "1.5.*",
+    "angular-route": "~1.5.*",
+    "angular-resource": "1.5.*",
+    "angular-loader": "~1.5.*",
+    "angular-mocks": "~1.5.*",
+    "angular-bootstrap": "",
+    "angular-utils-pagination": "",
+    "html5-boilerplate": "^5.3.*",
+    "bootstrap": "3.3.*",
+    "jquery": "2.2.*",
+    "font-awesome": "4.*",
+    "highcharts": ""
+  }
+}

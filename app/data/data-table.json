@@ -1,0 +1,163 @@
+[
+	{
+		"customer_name":"John Smith",
+		"customer_email":"jsmith@mail.com",
+		"description":"Aenean ac diam nec neque fringilla.",
+		"submission_timestamp":"2016-08-09, 17:00",
+		"closed_timestamp":"2016-08-10, 16:30",
+		"status":"Closed",
+		"employee_name":"Tomas Henderson"
+	}, {
+		"customer_name":"Anna Walton",
+		"customer_email":"awalton@mail.com",
+		"description":"Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris.",
+		"submission_timestamp":"2016-09-05, 18:00",
+		"closed_timestamp":"2016-09-07, 17:30",
+		"status":"Closed",
+		"employee_name":"Alan Smith"
+	}, {
+		"customer_name":"Adam Walker",
+		"customer_email":"awalker@mail.com",
+		"description":"Donec iaculis tortor in nunc vehicula rutrum.",
+		"submission_timestamp":"2016-11-01, 19:00",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Simon Patterson"
+	}, {
+		"customer_name":"Kate Perry",
+		"customer_email":"kperry@mail.com",
+		"description":"Aenean ac diam nec neque fringilla cursus.",
+		"submission_timestamp":"2016-11-03, 18:00",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Simone Page"
+	}, {
+		"customer_name":"John Johnson",
+		"customer_email":"jjohnson@mail.com",
+		"description":"Aenean ac diam nec neque fringilla.",
+		"submission_timestamp":"2016-10-03, 17:00",
+		"closed_timestamp":"2016-10-03, 16:00",
+		"status":"Closed",
+		"employee_name":"Tomas Henderson"
+	}, {
+		"customer_name":"Cara Watson",
+		"customer_email":"cwatson@mail.com",
+		"description":"Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris.",
+		"submission_timestamp":"2016-10-03, 16:00",
+		"closed_timestamp":"2016-10-05, 17:00",
+		"status":"Closed",
+		"employee_name":"Alan Smith"
+	}, {
+		"customer_name":"Adam Smith",
+		"customer_email":"asmith@mail.com",
+		"description":"Donec iaculis tortor in nunc vehicula rutrum.",
+		"submission_timestamp":"2016-11-14, 19:30",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Simon Patterson"
+	}, {
+		"customer_name":"Kate Morgan",
+		"customer_email":"kmorgan@mail.com",
+		"description":"Aenean ac diam nec neque fringilla cursus.",
+		"submission_timestamp":"2016-11-10, 19:00",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Andrew Smith"
+	}, {
+		"customer_name":"Steve Morrison",
+		"customer_email":"smorrison@mail.com",
+		"description":"Aenean ac diam nec neque fringilla.",
+		"submission_timestamp":"2016-11-15, 17:00",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Stan Lee"
+	}, {
+		"customer_name":"Anna Morgan",
+		"customer_email":"amorgan@mail.com",
+		"description":"Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris.",
+		"submission_timestamp":"2016-09-12, 18:00",
+		"closed_timestamp":"2016-09-14, 17:30",
+		"status":"Closed",
+		"employee_name":"Alan Smith"
+	}, {
+		"customer_name":"Bob Kane",
+		"customer_email":"bkane@mail.com",
+		"description":"Donec iaculis tortor in nunc vehicula rutrum.",
+		"submission_timestamp":"2016-09-13, 19:00",
+		"closed_timestamp":"2016-09-14, 13:50",
+		"status":"Closed",
+		"employee_name":"Simon Patterson"
+	}, {
+		"customer_name":"Ludvig Forssell",
+		"customer_email":"forssell@mail.com",
+		"description":"Aenean ac diam nec neque fringilla cursus.",
+		"submission_timestamp":"2016-11-16, 18:00",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Robert Page"
+	}, {
+		"customer_name":"Joanna Vanderham",
+		"customer_email":"jvanderham@mail.com",
+		"description":"Aenean ac diam nec neque fringilla.",
+		"submission_timestamp":"2016-11-16, 17:00",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Robert Stevenson"
+	}, {
+		"customer_name":"Leo Watson",
+		"customer_email":"cwatson@mail.com",
+		"description":"Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris.",
+		"submission_timestamp":"2016-10-25, 16:00",
+		"closed_timestamp":"2016-10-26, 17:00",
+		"status":"Closed",
+		"employee_name":"Alan Smith"
+	}, {
+		"customer_name":"Denise Lovett",
+		"customer_email":"dlovett@mail.com",
+		"description":"Donec iaculis tortor in nunc vehicula rutrum.",
+		"submission_timestamp":"2016-10-27, 15:30",
+		"closed_timestamp":"2016-10-28, 14:00",
+		"status":"Closed",
+		"employee_name":"Peter Patterson"
+	}, {
+		"customer_name":"David Morgan",
+		"customer_email":"kmorgan@mail.com",
+		"description":"Aenean ac diam nec neque fringilla cursus.",
+		"submission_timestamp":"2016-11-17, 19:00",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Andrew Scott"
+	}, {
+		"customer_name":"Jane Doe",
+		"customer_email":"jane_doe@mail.com",
+		"description":"Aenean ac diam nec neque fringilla.",
+		"submission_timestamp":"2016-11-11, 14:00",
+		"closed_timestamp":"2016-11-14, 15:00",
+		"status":"Open",
+		"employee_name":"Robert Bush"
+	}, {
+		"customer_name":"Mary Watson",
+		"customer_email":"watson@mail.com",
+		"description":"Integer eget mauris et urna pulvinar consectetur hendrerit eget mauris.",
+		"submission_timestamp":"2016-09-26, 10:00",
+		"closed_timestamp":"2016-09-28, 17:00",
+		"status":"Closed",
+		"employee_name":"Jake Cameron"
+	}, {
+		"customer_name":"Dennis Sandler",
+		"customer_email":"sandler@mail.com",
+		"description":"Donec iaculis tortor in nunc vehicula rutrum.",
+		"submission_timestamp":"2016-09-14, 13:30",
+		"closed_timestamp":"2016-09-16, 17:00",
+		"status":"Closed",
+		"employee_name":"Robin Robinson"
+	}, {
+		"customer_name":"Kurt Geiger",
+		"customer_email":"geiger@mail.com",
+		"description":"Aenean ac diam nec neque fringilla cursus.",
+		"submission_timestamp":"2016-11-14, 18:30",
+		"closed_timestamp":"N/A",
+		"status":"Open",
+		"employee_name":"Andrew Addams"
+	}
+]

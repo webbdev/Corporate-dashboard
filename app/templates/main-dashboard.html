@@ -1,0 +1,80 @@
+<!-- Content Header -->
+<section class="content-header">
+  <h1>Dashboard<small>Home</small></h1>
+</section>
+
+<!-- Info boxes -->
+<div class="row info-boxes">
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <div class="info-box">
+      <span class="info-box-top"><i class="fa fa-globe" style="color:#3c8dbc;" aria-hidden="true"></i>Total countries</span>
+      <div class="info-box-number">13</div>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <div class="info-box">
+      <span class="info-box-top"><i class="fa fa-users" style="color:#00a65a;" aria-hidden="true"></i>Total Employees</span>
+      <div class="info-box-number">625</div>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <div class="info-box">
+      <span class="info-box-top"><i class="fa fa-exclamation" style="color:#ff0066;" aria-hidden="true"></i>Total Issues</span>
+      <div class="info-box-number">{{$ctrl.counter}}</div>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <div class="info-box">
+      <span class="info-box-top"><i class="fa fa-square-o" style="color:#ff0066;" aria-hidden="true"></i>Open Issues</span>
+      <div class="info-box-number">329</div>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <div class="info-box">
+      <span class="info-box-top"><i class="fa fa-check-square-o" style="color:#ff0066;" aria-hidden="true"></i>Closed Issues</span>
+      <div class="info-box-number">1406</div>
+    </div>
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <div class="info-box">
+      <span class="info-box-top"><i class="fa fa-users"  style="color:#605ca8;" aria-hidden="true"></i>Total Customers</span>
+      <div class="info-box-number">1678</div>
+    </div>
+  </div>
+</div><!-- /.row Info boxes -->
+
+<!-- Issues charts -->
+<div class="row">
+  <div class="col-sm-6">
+    <div id="container-issues-live">
+      <hc-chart-live options="$ctrl.chartOptions">Placeholder for generic chart</hc-chart-live>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div id="container-issues2">
+      <hc-chart-colmn options="$ctrl.chartOptions">Placeholder for generic chart</hc-chart-colmn>
+    </div>
+  </div>
+</div>
+
+<!-- Employee Count Map & Chart -->
+<div class="row">
+  <div class="col-sm-6">
+    <div id="container-mapsmall">
+      <hc-chart-mapsm options="$ctrl.chartOptions">Placeholder for generic chart-map</hc-chart-mapsm>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div id="container-mapchart">
+      <hc-chart-bar options="$ctrl.chartOptions">Placeholder for generic chart</hc-chart-bar>
+    </div>
+  </div>
+</div>
+
+
+ 
+  
+  
+
+  
+

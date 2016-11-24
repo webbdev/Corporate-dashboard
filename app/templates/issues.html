@@ -1,0 +1,63 @@
+<!-- Page Content -->
+<div>
+  <!-- Content Header -->
+  <section class="content-header">
+    <h1>Issues<small>Data table</small></h1>
+  </section>
+
+  <div class="box">
+    <div class="box-body">
+      <div class="form-group">
+        <input type="search" class="form-control" id="search" aria-label="Search" ng-model="$ctrl.query" placeholder="Search" tabindex="0">
+      </div>
+      <table id="issues-table" class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th ng-click="orderByMe = 'customer_name'; reverse=!reverse">Customer Name
+              <i class="fa fa-caret-down" ng-class="{'fa-caret-up': reverse, 'fa-caret-down' : !reverse}" aria-hidden="true"></i>
+            </th>
+            <th>Customer Email</th>
+            <th>Description</th>
+            <th ng-click="orderByMe = 'submission_timestamp'; reverse=!reverse">Submission Date
+              <i class="fa fa-caret-down" ng-class="{'fa-caret-up': reverse, 'fa-caret-down' : !reverse}" aria-hidden="true"></i>
+            </th>
+            <th>Closed Date</th>
+            <th ng-click="orderByMe = 'employee_name'; reverse=!reverse">Employee Name
+            <i class="fa fa-caret-down" ng-class="{'fa-caret-up': reverse, 'fa-caret-down' : !reverse}" aria-hidden="true"></i>
+            </th>
+            <th ng-click="orderByMe = 'status'; reverse=!reverse">Status
+              <i class="fa fa-caret-down" ng-class="{'fa-caret-up': reverse, 'fa-caret-down' : !reverse}" aria-hidden="true"></i>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr dir-paginate="x in $ctrl.issuesData | filter: $ctrl.query | orderBy:orderByMe:reverse | itemsPerPage:10"> 
+            <td>{{x.customer_name}}</td>
+            <td>{{x.customer_email}}</td>
+            <td>{{x.description}}</td>
+            <td>{{x.submission_timestamp}}</td>
+            <td>{{x.closed_timestamp}}</td>
+            <td>{{x.employee_name}}</td>
+            <td>{{x.status}}</td>
+          </tr>      
+        </tbody>
+        <tfoot>
+        <tr>
+          <th>Customer Name</th>
+          <th>Customer Email</th>
+          <th>Description</th>
+          <th>Submission Date</th>
+          <th>Closed Date</th>
+          <th>Employee Name</th>
+          <th>Status</th>
+        </tr>
+        </tfoot>
+      </table>
+      <div style="text-align:right;">
+        <dir-pagination-controls max-size="10" direction-links="true" boundary-links="true"></dir-pagination-controls>
+      </div>
+      
+    </div><!-- /.box-body -->
+  </div><!-- /.box -->
+
+</div>
